@@ -1,0 +1,56 @@
+h2 {
+  text-decoration: overline;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.num {
+  border: solid orangered 20px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px darkturquoise;
+  border-radius: 10px;
+}
+.second {
+  box-shadow: 10px 10px 10px purple;
+  border-radius: 10px 20px 30px 40px;
+}
+.sp {
+  border: solid 3px purple;
+  display: inline-block;
+  height: 30px;
+  font-weight: 800;
+  width: 100px;
+  margin: 20px;
+  padding: 30px;
+  background-image: url('Picsart_23-11-11_13-19-41-455.png');
+}
+li{
+    display: inline;
+}
+header{
+    height: 400px;
+    background-color: orangered;
+    background-image: url('/Programming Hero/My first Website/Logo2.jpg');
+    /* background-repeat: none; */
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
+    /* border-image-slice:unset; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 100px;
+    /* background-position:70px; */
+    /* background-clip:inherit; */
+    /* background-attachment:scroll; */
+    /* background-position: right top; */
+    /* background-position: left top; */
+    /* background-position: top; */
+    /* background-position: right ; */
+    /* background-position: left; */
+    /* background-position: center; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left ; */
+    /* background-position: bottom center; */
+    background-position: 0% 100%;
+    background-image: url('../My first Website/Logo.jpg');
+}

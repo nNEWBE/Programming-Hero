@@ -1,0 +1,18 @@
+#one{
+    color: red;
+    background-color: darkcyan;
+}
+h2{
+    font-size: 35px;
+    font-family: Agency Fb;
+    border: 10px solid dodgerblue;
+    border-radius: 30px;
+    text-align:center;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px ;
+    background-image: url('../../My first Website/Logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-style:italic;
+}
