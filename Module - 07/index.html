@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container {
+            border: aqua 2px solid;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            height: 500px;
+            align-items: center;
+            /* flex-direction: column-reverse; */
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+        }
+
+        .box {
+            border: 2px dashed yellowgreen;
+            height: 50px;
+            width: 50px;
+            /* display: inline; */
+            /* justify-content: end; */
+
+        }
+
+        nav a{
+            text-decoration: none;
+            color: darkcyan;
+            font-weight: 600;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            /* display: block; */
+            width: 50%;
+        }
+
+        .login-form input{
+            margin-top:20px;
+        }
+
+        section{
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            height:50vh ;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="ancor">
+        <a href="">Home</a>
+        <a href="">Skills</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        </div>
+        <a href="">About</a>
+        <a href="">Login</a>
+    </nav>
+
+    <h1>Flexbox Layout</h1>
+
+    <div class="container">
+
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box-5</div>
+        <div class="box">Box-6</div>
+        <div class="box">Box-7</div>
+        <div class="box">Box-8</div>
+        <div class="box">Box-9</div>
+
+    </div>
+
+    <section>
+    <form class="login-form">
+        <h2>Please Login</h2>
+        <!-- <p>pa</p> -->
+        <input type="email" name="" id=""placeholder="your email" required>
+        <input type="password" name="" id="" placeholder="your password" required>
+        <input type="submit" value="Login">
+    </form>
+    </section>
+
+</body>
+
+</html>

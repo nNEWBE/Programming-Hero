@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Resposiveness</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+        }
+
+        .box {
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .item {
+            border: 2px solid darkred;
+            height: 100px;
+            width: 200px;
+            background-color: aquamarine;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Flexible Flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>First Box</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sapiente quasi nemo vel nam et eaque
+                quia ex modi error.</p>
+        </div>
+        <div class="box">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut est repellat iusto mollitia eligendi
+                aperiam accusantium atque nisi amet deleniti.</p>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+    </div>
+
+</body>
+
+</html>
